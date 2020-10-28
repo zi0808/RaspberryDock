@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-DeckServer",
+      "appliesTo": "DeckServer/DeckServer.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskName": "task-SocketHandler",
+      "appliesTo": "DeckServer/SocketHandler.cs",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+D:\C# Project\DeckServer\DeckServer\bin\Debug\DeckServer.exe.config
+D:\C# Project\DeckServer\DeckServer\bin\Debug\DeckServer.exe
+D:\C# Project\DeckServer\DeckServer\bin\Debug\DeckServer.pdb
+D:\C# Project\DeckServer\DeckServer\obj\Debug\DeckServer.csprojAssemblyReference.cache
+D:\C# Project\DeckServer\DeckServer\obj\Debug\DeckServer.Form1.resources
+D:\C# Project\DeckServer\DeckServer\obj\Debug\DeckServer.Properties.Resources.resources
+D:\C# Project\DeckServer\DeckServer\obj\Debug\DeckServer.csproj.GenerateResource.cache
+D:\C# Project\DeckServer\DeckServer\obj\Debug\DeckServer.csproj.CoreCompileInputs.cache
+D:\C# Project\DeckServer\DeckServer\obj\Debug\DeckServer.exe
+D:\C# Project\DeckServer\DeckServer\obj\Debug\DeckServer.pdb
+D:\VSProjects\DeckServer\DeckServer\bin\Debug\DeckServer.exe.config
+D:\VSProjects\DeckServer\DeckServer\bin\Debug\DeckServer.exe
+D:\VSProjects\DeckServer\DeckServer\bin\Debug\DeckServer.pdb
+D:\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.csprojAssemblyReference.cache
+D:\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.Form1.resources
+D:\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.Properties.Resources.resources
+D:\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.csproj.GenerateResource.cache
+D:\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.exe
+D:\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.pdb
+D:\Documents\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.exe
+D:\Documents\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.pdb
+D:\Documents\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.csprojAssemblyReference.cache
+D:\Documents\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.Form1.resources
+D:\Documents\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.Properties.Resources.resources
+D:\Documents\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.csproj.GenerateResource.cache
+D:\Documents\VSProjects\DeckServer\DeckServer\obj\Debug\DeckServer.csproj.CoreCompileInputs.cache
+D:\Documents\VSProjects\DeckServer\DeckServer\bin\Debug\DeckServer.exe.config
+D:\Documents\VSProjects\DeckServer\DeckServer\bin\Debug\DeckServer.exe
+D:\Documents\VSProjects\DeckServer\DeckServer\bin\Debug\DeckServer.pdb

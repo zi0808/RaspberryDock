@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icon_chrome.png</file>
+        <file>icon_cmd.png</file>
+        <file>icon_pause.png</file>
+        <file>icon_track_next.png</file>
+        <file>icon_track_prev.png</file>
+        <file>icon_volume_down.png</file>
+        <file>icon_volume_mute.png</file>
+        <file>icon_volume_up.png</file>
+        <file>Facebook_512.png</file>
+        <file>Youtube_512.png</file>
+        <file>Twitter_512.png</file>
+        <file>Linkedin_512.png</file>
+        <file>Windows_Icon_Black_512.png</file>
+        <file>Windows_Icon_Blue_512.png</file>
+        <file>icon_vs.png</file>
+        <file>icon_wexplorer.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Win_Close.png</file>
+        <file>Win_Max.png</file>
+        <file>Win_Min.png</file>
+    </qresource>
+</RCC>
