@@ -8,7 +8,7 @@ This was a final project for a university lecture.
 이 프로젝트는 대학 강의의 기말 프로젝트를 목적으로 제작되었습니다.
  
 ## What can it do? [이걸로 뭘 할 수 있죠?]
-![Screenshot.png]
+![Screenshot.png](https://github.com/zi0808/RaspberryDock/blob/main/Screenshot.png?raw=true)
 - Currently, all actions are pre-defined<br>
   현재는 모든 기능이 미리 정의된것만 사용됩니다
 - Pass hotkey input to Windows.<br>
@@ -34,6 +34,17 @@ However, one of the requirements were indeed, use of TCP sockets.<br>
 당연하지만 처음엔 시리얼 포트를 사용하는걸 생각했습니다. 그렇게 되면 그냥 컴퓨터에 USB-시리얼로 장착해서 쓸수 있으니 말이죠.
 하지만 프로젝트 요구사항이 TCP 사용이므로 그렇게 됬습니다.
 
+## How does it work [작동 원리]
+![ProcessFlow.png](https://github.com/zi0808/RaspberryDock/blob/main/ProcessFlow.png?raw=true)
+- Both Proceeses has UI, I/O is handled asynchronously through thread and task.<br>
+  클라이언트/서버 둘다 UI 가 있으므로 I/O 처리를 쓰레드나 Task 이용하여 비동기 처리합니다.
+- Commands are UTF-8 Strings, and both ends has interpreter for parsing commands, which leads to actions<br>
+  둘 사이의 명령어는 UTF-8 문자열이며, 두 쪽 모두 인터프리터가 명령어를 해석하여 행동을 수행합니다.
+- Windows part is made of C# (Winforms) , RPi part is made of C++(Qt).<br>
+  윈도우 파트는 C# Winform 사용되었으며, 라즈베리 파이 쪽은 C++ Qt 를 사용했습니다.
+- Status of Windows' processes are synced to Raspberry Pi.<br>
+  윈도우의 프로세스 목록이 라즈베리 파이에 동기화됩니다.
+
 ## How to Test / Demo this code [코드 테스트/실행해보기]
 You will need :
  - Raspberry Pi 3B or higher, With LAN or WLAN connetivity. ( inteded to use with Touch Screen Chassis )
@@ -43,7 +54,9 @@ You will need :
  - "DeckServer" is the TCP Listener on Windows.
  - "DeckClient" is the TCP Client on RPi.
 <br>
+
 필요한 사항은 다음과 같습니다 :
+
  - 라즈베리 파이 3B 또는 그 이후 버전, 유선 또는 무선 LAN 연결 ( 터치스크린 케이스 사용을 권장합니다. )
  - 리눅스 PC 또는 WSL 이 설치된 Windows PC. 두 경우 모두 **우분투 / Qt 크리에이터** 가 있어야 크로스 컴파일이 가능합니다.
  - Windows 설치된 PC.
